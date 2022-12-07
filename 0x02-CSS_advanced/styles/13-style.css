@@ -48,7 +48,9 @@
   }
   a:hover{
 	text-decoration: underline;
-	color:var(--color-light-grey);
+}
+a:active{
+	color: var(--color-light-grey);
 }
   .visually-hidden {
 	display: none;
