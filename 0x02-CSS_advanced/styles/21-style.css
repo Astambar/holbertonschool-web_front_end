@@ -509,12 +509,14 @@ ul.row {
 .footer ul {
   text-align: right;
 }
-.row::after{
+
+.row::after {
   content: "";
-  display:table;
+  display: table;
   clear: both;
 }
-[class^="col-"]{
+
+[class^="col-"] {
   float: left;
   padding: 0.5rem;
 }
