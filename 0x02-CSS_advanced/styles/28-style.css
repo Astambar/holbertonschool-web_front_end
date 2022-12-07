@@ -613,13 +613,14 @@ ul.row {
 
 .header {
   padding: var(--header-padding);
+  position: var(--header-logo-position);
 }
 
 .header-logo {
   position: var(--header-logo-position);
 }
 
-.header a {
+.header-logo a {
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
