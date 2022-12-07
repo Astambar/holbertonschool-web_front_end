@@ -43,13 +43,15 @@ h1, h2, h3, h4, h5, h6{
 .visually-hidden {
 	display:none;
 }
-.section-header{
-	text-align:var(--section-header-align);
+.card-category, .section-tagline{
+	color:var(--color-primary);
 }
+
 .section-tagline{
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
+	text-transform:var(--section-tagline-transform);
 }
-.card-category, .section-tagline{
-	color:var(--color-primary);
+.section-header{
+	text-align:var(--section-header-align);
 }
