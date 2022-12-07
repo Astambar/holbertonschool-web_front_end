@@ -40,18 +40,18 @@
   body, a:link {
 	color: var(--text-color);
   }
-  a:link{
+  a:link {
 	text-decoration: none;
   }
-  a:visited{
+  a:visited {
 	font-style: italic;
   }
-  a:hover{
+  a:hover {
 	text-decoration: underline;
-}
-a:active{
-	color: var(--color-light-grey);
-}
+  }
+  a:active {
+	background-color: var(--color-light-grey);
+  }
   .visually-hidden {
 	display: none;
   }
