@@ -467,7 +467,7 @@ a:active {
 }
 .container {
   width: 960px;
-  margin:auto;
+  margin:auto auto;
 }
 .section-title {
   font-size: var(--font-size-xx-large);
