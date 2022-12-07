@@ -405,7 +405,7 @@ template {
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
 }
-* {
+*, *::before{
   box-sizing: border-box;
 }
 html {
