@@ -536,3 +536,6 @@ margin: var(--nav-item-margin);
   display:block;
   padding: 100% 50%;
 }
+.nav .nav-link:hover{
+  color:var(--nav-item-link-hover);
+}
