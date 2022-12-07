@@ -37,7 +37,7 @@
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
   }
-  body, a {
+  body, a:link {
 	color: var(--text-color);
   }
   a:link{
