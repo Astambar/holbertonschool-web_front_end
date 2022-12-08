@@ -1,0 +1,7 @@
+/** 8-mixin_margins*/
+@mixin margin_horizontal_uniq($value) {
+    margin-left: $value;
+    margin-right: $value;
+}
+body{@include margin_horizontal_uniq(10px)}
+div{@include margin_horizontal_uniq(15px)}
