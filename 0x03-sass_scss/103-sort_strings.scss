@@ -1,0 +1,26 @@
+@import './103-sort_list';
+$sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
+@function str-compare($string1, $string2) {
+	@return if(str-length($string1) == str-length($string2), true, false);
+  }
+/* swap en sass */
+@function swap($array, $index1, $index2) {
+	$temp: nth($array, $index1);
+	$array: set-nth($array, $index1, nth($array, $index2));
+	$array: set-nth($array, $index2, $temp);
+	@return $array;
+  }
+  @function sort($list, $sort-order) {
+	@for $i from 1 through length($list) {
+	@for $j from $i * -1 through -1 {
+		$j: abs($j);
+		@if $j > 1 and compare(nth($list, $j),
+					nth($list, $j - 1), $sort-order) {
+			$list: swap($list, $j, $j - 1);
+		}
+		}
+	}
+	@return $list;
+	}
+
+@debug #{sort($list_to_sort, $sort-order)};
