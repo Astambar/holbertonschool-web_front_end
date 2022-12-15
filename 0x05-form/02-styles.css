@@ -654,23 +654,23 @@
 		padding-left: 7rem;
 
 		}
-		.post-comments .section-title{
-			font-variant:small-caps;
-		}
+	.post-comments .section-title{
+		font-variant:small-caps;
+	}
 /* Basic form
     ============================= */
 
-form {
-	display:flex;
-	flex-direction: column;
-	padding: 1rem 0;
-	margin: 0;
-}
+	form {
+		display: flex;
+		flex-direction: column;
+		padding: 1rem 0;
+		margin: 0;
+	}
 
-fieldset {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	border: none;
-	padding: 0 0 2rem;
-}
+	fieldset {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		border: none;
+		padding: 0 0 2rem;
+	}
